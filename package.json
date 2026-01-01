@@ -1,0 +1,23 @@
+{
+  "name": "birthday-cake-loading",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "bcl"
+  ],
+  "homepage": "https://github.com/shiftbloom-studio/birthday-cake-loading#readme",
+  "bugs": {
+    "url": "https://github.com/shiftbloom-studio/birthday-cake-loading/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiftbloom-studio/birthday-cake-loading.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
