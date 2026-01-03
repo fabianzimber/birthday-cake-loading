@@ -7,13 +7,14 @@ const shared = {
   treeshake: true,
   splitting: false,
   minify: false,
+  clean: true,
   external: [
     "react",
     "react-dom",
-    "@birthday-cake-loading/react",
-    "@birthday-cake-loading/react/upgrade",
-    "@birthday-cake-loading/react/devtools",
-    "@birthday-cake-loading/core/server"
+    "@birthday-cake-loading/core",
+    "@birthday-cake-loading/core/server",
+    "@birthday-cake-loading/core/runtime",
+    "@birthday-cake-loading/core/dom"
   ]
 } as const;
 
@@ -24,14 +25,7 @@ export default defineConfig([
       index: "src/index.ts",
       upgrade: "src/upgrade.tsx",
       devtools: "src/devtools.tsx"
-    },
-    clean: true
-  },
-  {
-    ...shared,
-    entry: {
-      server: "src/server.ts"
-    },
-    clean: false
+    }
   }
 ]);
+
