@@ -2,8 +2,9 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "."
+    "rootDir": "src",
+    "verbatimModuleSyntax": true
   },
-  "include": ["src", "runtime"]
+  "include": ["src"]
 }
 
