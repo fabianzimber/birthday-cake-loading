@@ -41,7 +41,7 @@ export default function DatenschutzPage() {
           <p>
             Diese Datenschutzerklärung informiert Sie über die Art, den Umfang und den Zweck der
             Verarbeitung personenbezogener Daten innerhalb dieser Website. Diese Website ist eine
-            technische Demo für die Open-Source-Bibliothek „Birthday-Cake Loading" und verarbeitet
+            technische Demo für die Open-Source-Bibliothek „Birthday-Cake Loading” und verarbeitet
             nur die für den Betrieb technisch notwendigen Daten.
           </p>
         </section>
